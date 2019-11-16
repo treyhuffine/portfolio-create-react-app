@@ -1,17 +1,29 @@
 {
   "name": "portfolio-create-react-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "homepage": "http://treyhuffine.github.io/portfolio-create-react-app",
   "dependencies": {
+    "@carbon/icons-react": "^10.6.1",
+    "@carbon/themes": "^10.7.0",
+    "carbon-components": "^10.7.3",
+    "carbon-components-react": "^7.7.3",
+    "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": "react-app"
