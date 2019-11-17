@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   if (!user) {
-    return <div>Fetching my latest portfolio...</div>;
+    return <div />;
   }
 
   return <Pages user={user} />;
