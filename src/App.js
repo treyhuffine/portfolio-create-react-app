@@ -4,7 +4,8 @@ import Pages from './pages';
 function App() {
   const [user, setUser] = useState(null);
   useEffect(() => {
-    fetch('https://gitconnected.com/v1/api/resume/treyhuffine')
+    // NOTE: Use your username below
+    fetch('https://gitconnected.com/v1/portfolio/treyhuffine')
       .then(res => res.json())
       .then(user => {
         setUser(user);
