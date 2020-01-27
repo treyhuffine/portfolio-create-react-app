@@ -1,3 +1,10 @@
+## NEW - Automatically Generate Resumes
+```
+https://gitconnected.com/<YOUR_USERNAME>/resume
+```
+Ex. [My Resume](https://gitconnected.com/treyhuffine/resume)
+
+
 ## Built using the gitconnected.com user portfolio API
 Data is supplied by the gitconnected.com API and fetches your newest data on each page load. Make updates to your portfolio website without ever needing to change code or re-deploy. Use your API endpiont now:
 
