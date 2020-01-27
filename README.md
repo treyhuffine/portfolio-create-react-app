@@ -2,7 +2,7 @@
 ```
 https://gitconnected.com/<YOUR_USERNAME>/resume
 ```
-Ex. [My Resume](https://gitconnected.com/treyhuffine/resume)
+Ex. **[My Resume →](https://gitconnected.com/treyhuffine/resume)**
 ![](resume.png)
 
 ## Built using the gitconnected.com user portfolio API
