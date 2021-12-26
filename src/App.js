@@ -6,8 +6,8 @@ function App() {
   useEffect(() => {
     // NOTE: Use your username below
     fetch('https://gitconnected.com/v1/portfolio/richard-hendricks-demo')
-      .then(res => res.json())
-      .then(user => {
+      .then((res) => res.json())
+      .then((user) => {
         setUser(user);
       });
   }, []);
